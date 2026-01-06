@@ -1,0 +1,72 @@
+event: chartjs
+data: {
+  "chartjs": {
+    "type": "bar",
+    "data": {
+      "labels": [
+        "Anita",
+        "James",
+        "Rohan",
+        "Priya",
+        "Maria"
+      ],
+      "datasets": [
+        {
+          "label": "Total Net Revenue ($)",
+          "data": [
+            24953.39,
+            20808.82,
+            13575.28,
+            10307.37,
+            7892.85
+          ],
+          "backgroundColor": "#3B82F6",
+          "borderColor": "#1E40AF",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options": {
+      "responsive": true,
+      "maintainAspectRatio": true,
+      "plugins": {
+        "title": {
+          "display": true,
+          "text": "Total Net Revenue by Sales Rep (2023)"
+        },
+        "legend": {
+          "display": true,
+          "position": "top"
+        },
+        "tooltip": {
+          "enabled": true,
+          "mode": "index",
+          "intersect": false
+        }
+      },
+      "scales": {
+        "y": {
+          "beginAtZero": true,
+          "title": {
+            "display": true,
+            "text": "Net Revenue ($)"
+          },
+          "ticks": {
+            "stepSize": 5000
+          }
+        },
+        "x": {
+          "title": {
+            "display": true,
+            "text": "Sales Representative"
+          }
+        }
+      },
+      "interaction": {
+        "mode": "nearest",
+        "intersect": false
+      }
+    }
+  },
+  "references": []
+}

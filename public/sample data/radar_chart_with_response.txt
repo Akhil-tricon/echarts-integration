@@ -1,0 +1,955 @@
+id: 1
+event: intermediate_step
+data: {"args": {"query": "Analyzing request.."}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 2
+event: intermediate_step
+data: {"args": {"query": "Analyzing request.."}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 3
+event: intermediate_step
+data: {"args": {"query": "creating analysis plan"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 4
+event: intermediate_step
+data: {"args": {"query": "writing aggregation query"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 5
+event: intermediate_step
+data: {"args": {"query": "executing sales analysis"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 6
+event: intermediate_step
+data: {"args": {"query": "creating radar visualization"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 7
+event: chartjs
+data: {"chartjs": {"type": "radar", "data": {"labels": ["Customer Rating (Avg)", "Net Revenue ($000s)", "Support Calls"], "datasets": [{"label": "Anita", "data": [3.28, 60.06, 37], "backgroundColor": "rgba(59, 130, 246, 0.2)", "borderColor": "#3B82F6", "borderWidth": 2, "pointBackgroundColor": "#3B82F6", "pointBorderColor": "#ffffff", "pointBorderWidth": 2}, {"label": "James", "data": [3.4, 47.71, 34], "backgroundColor": "rgba(239, 68, 68, 0.2)", "borderColor": "#EF4444", "borderWidth": 2, "pointBackgroundColor": "#EF4444", "pointBorderColor": "#ffffff", "pointBorderWidth": 2}, {"label": "Maria", "data": [3.6, 58.11, 34], "backgroundColor": "rgba(16, 185, 129, 0.2)", "borderColor": "#10B981", "borderWidth": 2, "pointBackgroundColor": "#10B981", "pointBorderColor": "#ffffff", "pointBorderWidth": 2}, {"label": "Priya", "data": [3.18, 27.53, 28], "backgroundColor": "rgba(245, 158, 11, 0.2)", "borderColor": "#F59E0B", "borderWidth": 2, "pointBackgroundColor": "#F59E0B", "pointBorderColor": "#ffffff", "pointBorderWidth": 2}, {"label": "Rohan", "data": [3.36, 35.05, 45], "backgroundColor": "rgba(139, 92, 246, 0.2)", "borderColor": "#8B5CF6", "borderWidth": 2, "pointBackgroundColor": "#8B5CF6", "pointBorderColor": "#ffffff", "pointBorderWidth": 2}]}, "options": {"responsive": true, "maintainAspectRatio": true, "plugins": {"title": {"display": true, "text": "Sales Rep Performance Comparison", "font": {"size": 16, "weight": "bold"}}, "legend": {"display": true, "position": "top"}, "tooltip": {"enabled": true, "mode": "point", "intersect": true}}, "scales": {"r": {"beginAtZero": true, "min": 0, "max": 65, "ticks": {"stepSize": 10}, "grid": {"color": "rgba(0, 0, 0, 0.1)"}, "angleLines": {"color": "rgba(0, 0, 0, 0.1)"}, "pointLabels": {"font": {"size": 12, "weight": "bold"}}}}, "interaction": {"mode": "point", "intersect": true}}}, "references": []}
+retry: 5000
+
+id: 8
+event: intermediate_step
+data: {"args": {"query": "summarizing rep performance"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 9
+event: text_chunk
+data: {"answer": "#", "references": []}
+retry: 5000
+
+id: 10
+event: text_chunk
+data: {"answer": " Sales", "references": []}
+retry: 5000
+
+id: 11
+event: text_chunk
+data: {"answer": " Representative", "references": []}
+retry: 5000
+
+id: 12
+event: text_chunk
+data: {"answer": " Performance Analysis", "references": []}
+retry: 5000
+
+id: 13
+event: text_chunk
+data: {"answer": "\n\nBase", "references": []}
+retry: 5000
+
+id: 14
+event: text_chunk
+data: {"answer": "d on the radar", "references": []}
+retry: 5000
+
+id: 15
+event: text_chunk
+data: {"answer": " chart analysis", "references": []}
+retry: 5000
+
+id: 16
+event: text_chunk
+data: {"answer": " comparing", "references": []}
+retry: 5000
+
+id: 17
+event: text_chunk
+data: {"answer": " sales", "references": []}
+retry: 5000
+
+id: 18
+event: text_chunk
+data: {"answer": " representatives across", "references": []}
+retry: 5000
+
+id: 19
+event: text_chunk
+data: {"answer": " three", "references": []}
+retry: 5000
+
+id: 20
+event: text_chunk
+data: {"answer": " key performance", "references": []}
+retry: 5000
+
+id: 21
+event: text_chunk
+data: {"answer": " metrics, here are", "references": []}
+retry: 5000
+
+id: 22
+event: text_chunk
+data: {"answer": " the key insights", "references": []}
+retry: 5000
+
+id: 23
+event: text_chunk
+data: {"answer": ":\n\n## Overall", "references": []}
+retry: 5000
+
+id: 24
+event: text_chunk
+data: {"answer": " Performance Leaders", "references": []}
+retry: 5000
+
+id: 25
+event: text_chunk
+data: {"answer": "\n\n**Maria", "references": []}
+retry: 5000
+
+id: 26
+event: text_chunk
+data: {"answer": "** emer", "references": []}
+retry: 5000
+
+id: 27
+event: text_chunk
+data: {"answer": "ges as the top", "references": []}
+retry: 5000
+
+id: 28
+event: text_chunk
+data: {"answer": " performer with", "references": []}
+retry: 5000
+
+id: 29
+event: text_chunk
+data: {"answer": " the", "references": []}
+retry: 5000
+
+id: 30
+event: text_chunk
+data: {"answer": " highest customer", "references": []}
+retry: 5000
+
+id: 31
+event: text_chunk
+data: {"answer": " satisfaction", "references": []}
+retry: 5000
+
+id: 32
+event: text_chunk
+data: {"answer": " rating of", "references": []}
+retry: 5000
+
+id: 33
+event: text_chunk
+data: {"answer": " `", "references": []}
+retry: 5000
+
+id: 34
+event: text_chunk
+data: {"answer": "3.6` an", "references": []}
+retry: 5000
+
+id: 35
+event: text_chunk
+data: {"answer": "d strong", "references": []}
+retry: 5000
+
+id: 36
+event: text_chunk
+data: {"answer": " revenue", "references": []}
+retry: 5000
+
+id: 37
+event: text_chunk
+data: {"answer": " generation", "references": []}
+retry: 5000
+
+id: 38
+event: text_chunk
+data: {"answer": " of", "references": []}
+retry: 5000
+
+id: 39
+event: text_chunk
+data: {"answer": " `\u00a3", "references": []}
+retry: 5000
+
+id: 40
+event: text_chunk
+data: {"answer": "58,115", "references": []}
+retry: 5000
+
+id: 41
+event: text_chunk
+data: {"answer": "`.", "references": []}
+retry: 5000
+
+id: 42
+event: text_chunk
+data: {"answer": " She", "references": []}
+retry: 5000
+
+id: 43
+event: text_chunk
+data: {"answer": " also", "references": []}
+retry: 5000
+
+id: 44
+event: text_chunk
+data: {"answer": " maintains", "references": []}
+retry: 5000
+
+id: 45
+event: text_chunk
+data: {"answer": " efficient", "references": []}
+retry: 5000
+
+id: 46
+event: text_chunk
+data: {"answer": " support operations", "references": []}
+retry: 5000
+
+id: 47
+event: text_chunk
+data: {"answer": " with only", "references": []}
+retry: 5000
+
+id: 48
+event: text_chunk
+data: {"answer": " `34` support calls", "references": []}
+retry: 5000
+
+id: 49
+event: text_chunk
+data: {"answer": ".\n\n**An", "references": []}
+retry: 5000
+
+id: 50
+event: text_chunk
+data: {"answer": "ita** leads", "references": []}
+retry: 5000
+
+id: 51
+event: text_chunk
+data: {"answer": " in revenue", "references": []}
+retry: 5000
+
+id: 52
+event: text_chunk
+data: {"answer": " generation", "references": []}
+retry: 5000
+
+id: 53
+event: text_chunk
+data: {"answer": " with `\u00a360,", "references": []}
+retry: 5000
+
+id: 54
+event: text_chunk
+data: {"answer": "062` total net revenue", "references": []}
+retry: 5000
+
+id: 55
+event: text_chunk
+data: {"answer": ", though", "references": []}
+retry: 5000
+
+id: 56
+event: text_chunk
+data: {"answer": " her customer rating of", "references": []}
+retry: 5000
+
+id: 57
+event: text_chunk
+data: {"answer": " `3.28", "references": []}
+retry: 5000
+
+id: 58
+event: text_chunk
+data: {"answer": "` suggests", "references": []}
+retry: 5000
+
+id: 59
+event: text_chunk
+data: {"answer": " room for improvement in", "references": []}
+retry: 5000
+
+id: 60
+event: text_chunk
+data: {"answer": " customer satisfaction.\n\n##", "references": []}
+retry: 5000
+
+id: 61
+event: text_chunk
+data: {"answer": " Key Performance", "references": []}
+retry: 5000
+
+id: 62
+event: text_chunk
+data: {"answer": " Insights\n\n### Customer", "references": []}
+retry: 5000
+
+id: 63
+event: text_chunk
+data: {"answer": " Satisfaction", "references": []}
+retry: 5000
+
+id: 64
+event: text_chunk
+data: {"answer": "\n- **Maria**:", "references": []}
+retry: 5000
+
+id: 65
+event: text_chunk
+data: {"answer": " Highest rating", "references": []}
+retry: 5000
+
+id: 66
+event: text_chunk
+data: {"answer": " at `3.6", "references": []}
+retry: 5000
+
+id: 67
+event: text_chunk
+data: {"answer": "`", "references": []}
+retry: 5000
+
+id: 68
+event: text_chunk
+data: {"answer": "\n- **James", "references": []}
+retry: 5000
+
+id: 69
+event: text_chunk
+data: {"answer": "**: Strong", "references": []}
+retry: 5000
+
+id: 70
+event: text_chunk
+data: {"answer": " performance at", "references": []}
+retry: 5000
+
+id: 71
+event: text_chunk
+data: {"answer": " `3.4`", "references": []}
+retry: 5000
+
+id: 72
+event: text_chunk
+data: {"answer": "\n- **Ro", "references": []}
+retry: 5000
+
+id: 73
+event: text_chunk
+data: {"answer": "han**: Moderate rating", "references": []}
+retry: 5000
+
+id: 74
+event: text_chunk
+data: {"answer": " at `3.36", "references": []}
+retry: 5000
+
+id: 75
+event: text_chunk
+data: {"answer": "`\n- **", "references": []}
+retry: 5000
+
+id: 76
+event: text_chunk
+data: {"answer": "An", "references": []}
+retry: 5000
+
+id: 77
+event: text_chunk
+data: {"answer": "ita**: Lower", "references": []}
+retry: 5000
+
+id: 78
+event: text_chunk
+data: {"answer": " rating", "references": []}
+retry: 5000
+
+id: 79
+event: text_chunk
+data: {"answer": " at `3.28", "references": []}
+retry: 5000
+
+id: 80
+event: text_chunk
+data: {"answer": "`", "references": []}
+retry: 5000
+
+id: 81
+event: text_chunk
+data: {"answer": "\n- **Priya", "references": []}
+retry: 5000
+
+id: 82
+event: text_chunk
+data: {"answer": "**: Lowest", "references": []}
+retry: 5000
+
+id: 83
+event: text_chunk
+data: {"answer": " rating at `3.", "references": []}
+retry: 5000
+
+id: 84
+event: text_chunk
+data: {"answer": "18`\n\n### Revenue", "references": []}
+retry: 5000
+
+id: 85
+event: text_chunk
+data: {"answer": " Generation", "references": []}
+retry: 5000
+
+id: 86
+event: text_chunk
+data: {"answer": "\n- **", "references": []}
+retry: 5000
+
+id: 87
+event: text_chunk
+data: {"answer": "Anita**: Top", "references": []}
+retry: 5000
+
+id: 88
+event: text_chunk
+data: {"answer": " performer with `\u00a360", "references": []}
+retry: 5000
+
+id: 89
+event: text_chunk
+data: {"answer": ",062`", "references": []}
+retry: 5000
+
+id: 90
+event: text_chunk
+data: {"answer": "\n- **Maria", "references": []}
+retry: 5000
+
+id: 91
+event: text_chunk
+data: {"answer": "**: Strong secon", "references": []}
+retry: 5000
+
+id: 92
+event: text_chunk
+data: {"answer": "d with", "references": []}
+retry: 5000
+
+id: 93
+event: text_chunk
+data: {"answer": " `\u00a358,115", "references": []}
+retry: 5000
+
+id: 94
+event: text_chunk
+data: {"answer": "`\n- **James", "references": []}
+retry: 5000
+
+id: 95
+event: text_chunk
+data: {"answer": "**: Soli", "references": []}
+retry: 5000
+
+id: 96
+event: text_chunk
+data: {"answer": "d performance at", "references": []}
+retry: 5000
+
+id: 97
+event: text_chunk
+data: {"answer": " `\u00a347,710", "references": []}
+retry: 5000
+
+id: 98
+event: text_chunk
+data: {"answer": "`\n- **", "references": []}
+retry: 5000
+
+id: 99
+event: text_chunk
+data: {"answer": "Rohan**: Moderate", "references": []}
+retry: 5000
+
+id: 100
+event: text_chunk
+data: {"answer": " revenue", "references": []}
+retry: 5000
+
+id: 101
+event: text_chunk
+data: {"answer": " at `\u00a335,", "references": []}
+retry: 5000
+
+id: 102
+event: text_chunk
+data: {"answer": "053`\n- **", "references": []}
+retry: 5000
+
+id: 103
+event: text_chunk
+data: {"answer": "Priya**:", "references": []}
+retry: 5000
+
+id: 104
+event: text_chunk
+data: {"answer": " Lowest revenue at `\u00a3", "references": []}
+retry: 5000
+
+id: 105
+event: text_chunk
+data: {"answer": "27,533`", "references": []}
+retry: 5000
+
+id: 106
+event: text_chunk
+data: {"answer": "\n\n### Support Efficiency", "references": []}
+retry: 5000
+
+id: 107
+event: text_chunk
+data: {"answer": "\n>", "references": []}
+retry: 5000
+
+id: 108
+event: text_chunk
+data: {"answer": " Lower", "references": []}
+retry: 5000
+
+id: 109
+event: text_chunk
+data: {"answer": " support call", "references": []}
+retry: 5000
+
+id: 110
+event: text_chunk
+data: {"answer": " volumes", "references": []}
+retry: 5000
+
+id: 111
+event: text_chunk
+data: {"answer": " typically", "references": []}
+retry: 5000
+
+id: 112
+event: text_chunk
+data: {"answer": " indicate", "references": []}
+retry: 5000
+
+id: 113
+event: text_chunk
+data: {"answer": " better customer", "references": []}
+retry: 5000
+
+id: 114
+event: text_chunk
+data: {"answer": " on", "references": []}
+retry: 5000
+
+id: 115
+event: text_chunk
+data: {"answer": "boarding and product", "references": []}
+retry: 5000
+
+id: 116
+event: text_chunk
+data: {"answer": " understanding", "references": []}
+retry: 5000
+
+id: 117
+event: text_chunk
+data: {"answer": "\n\n-", "references": []}
+retry: 5000
+
+id: 118
+event: text_chunk
+data: {"answer": " **", "references": []}
+retry: 5000
+
+id: 119
+event: text_chunk
+data: {"answer": "Pr", "references": []}
+retry: 5000
+
+id: 120
+event: text_chunk
+data: {"answer": "iya**: Most", "references": []}
+retry: 5000
+
+id: 121
+event: text_chunk
+data: {"answer": " efficient with only", "references": []}
+retry: 5000
+
+id: 122
+event: text_chunk
+data: {"answer": " `28` support calls", "references": []}
+retry: 5000
+
+id: 123
+event: text_chunk
+data: {"answer": "\n- **James", "references": []}
+retry: 5000
+
+id: 124
+event: text_chunk
+data: {"answer": " &", "references": []}
+retry: 5000
+
+id: 125
+event: text_chunk
+data: {"answer": " Maria", "references": []}
+retry: 5000
+
+id: 126
+event: text_chunk
+data: {"answer": "**: Both", "references": []}
+retry: 5000
+
+id: 127
+event: text_chunk
+data: {"answer": " efficient", "references": []}
+retry: 5000
+
+id: 128
+event: text_chunk
+data: {"answer": " with `34` support", "references": []}
+retry: 5000
+
+id: 129
+event: text_chunk
+data: {"answer": " calls each\n- **", "references": []}
+retry: 5000
+
+id: 130
+event: text_chunk
+data: {"answer": "An", "references": []}
+retry: 5000
+
+id: 131
+event: text_chunk
+data: {"answer": "ita**:", "references": []}
+retry: 5000
+
+id: 132
+event: text_chunk
+data: {"answer": " Moderate volume", "references": []}
+retry: 5000
+
+id: 133
+event: text_chunk
+data: {"answer": " with `37` support", "references": []}
+retry: 5000
+
+id: 134
+event: text_chunk
+data: {"answer": " calls", "references": []}
+retry: 5000
+
+id: 135
+event: text_chunk
+data: {"answer": "\n- **Rohan", "references": []}
+retry: 5000
+
+id: 136
+event: text_chunk
+data: {"answer": "**: Highest volume", "references": []}
+retry: 5000
+
+id: 137
+event: text_chunk
+data: {"answer": " with `45` support", "references": []}
+retry: 5000
+
+id: 138
+event: text_chunk
+data: {"answer": " calls\n\n## Strategic", "references": []}
+retry: 5000
+
+id: 139
+event: text_chunk
+data: {"answer": " Recommendations\n\n1.", "references": []}
+retry: 5000
+
+id: 140
+event: text_chunk
+data: {"answer": " **Anita**:", "references": []}
+retry: 5000
+
+id: 141
+event: text_chunk
+data: {"answer": " Focus on improving customer satisfaction", "references": []}
+retry: 5000
+
+id: 142
+event: text_chunk
+data: {"answer": " whilst", "references": []}
+retry: 5000
+
+id: 143
+event: text_chunk
+data: {"answer": " maintaining revenue strength", "references": []}
+retry: 5000
+
+id: 144
+event: text_chunk
+data: {"answer": "\n2. **Maria", "references": []}
+retry: 5000
+
+id: 145
+event: text_chunk
+data: {"answer": "**: Excellent", "references": []}
+retry: 5000
+
+id: 146
+event: text_chunk
+data: {"answer": " balance", "references": []}
+retry: 5000
+
+id: 147
+event: text_chunk
+data: {"answer": "d performance -", "references": []}
+retry: 5000
+
+id: 148
+event: text_chunk
+data: {"answer": " potential", "references": []}
+retry: 5000
+
+id: 149
+event: text_chunk
+data: {"answer": " mentor", "references": []}
+retry: 5000
+
+id: 150
+event: text_chunk
+data: {"answer": " for other", "references": []}
+retry: 5000
+
+id: 151
+event: text_chunk
+data: {"answer": " reps\n3.", "references": []}
+retry: 5000
+
+id: 152
+event: text_chunk
+data: {"answer": " **James**: Strong", "references": []}
+retry: 5000
+
+id: 153
+event: text_chunk
+data: {"answer": " customer", "references": []}
+retry: 5000
+
+id: 154
+event: text_chunk
+data: {"answer": " satisfaction with", "references": []}
+retry: 5000
+
+id: 155
+event: text_chunk
+data: {"answer": " goo", "references": []}
+retry: 5000
+
+id: 156
+event: text_chunk
+data: {"answer": "d revenue potential for", "references": []}
+retry: 5000
+
+id: 157
+event: text_chunk
+data: {"answer": " growth", "references": []}
+retry: 5000
+
+id: 158
+event: text_chunk
+data: {"answer": "\n4. **", "references": []}
+retry: 5000
+
+id: 159
+event: text_chunk
+data: {"answer": "Pr", "references": []}
+retry: 5000
+
+id: 160
+event: text_chunk
+data: {"answer": "iya**: Needs", "references": []}
+retry: 5000
+
+id: 161
+event: text_chunk
+data: {"answer": " revenue", "references": []}
+retry: 5000
+
+id: 162
+event: text_chunk
+data: {"answer": " development", "references": []}
+retry: 5000
+
+id: 163
+event: text_chunk
+data: {"answer": " support", "references": []}
+retry: 5000
+
+id: 164
+event: text_chunk
+data: {"answer": " whilst", "references": []}
+retry: 5000
+
+id: 165
+event: text_chunk
+data: {"answer": " maintaining efficient", "references": []}
+retry: 5000
+
+id: 166
+event: text_chunk
+data: {"answer": " customer", "references": []}
+retry: 5000
+
+id: 167
+event: text_chunk
+data: {"answer": " service", "references": []}
+retry: 5000
+
+id: 168
+event: text_chunk
+data: {"answer": "\n5. **Ro", "references": []}
+retry: 5000
+
+id: 169
+event: text_chunk
+data: {"answer": "han**: Requires improvement", "references": []}
+retry: 5000
+
+id: 170
+event: text_chunk
+data: {"answer": " in both", "references": []}
+retry: 5000
+
+id: 171
+event: text_chunk
+data: {"answer": " customer", "references": []}
+retry: 5000
+
+id: 172
+event: text_chunk
+data: {"answer": " satisfaction and support efficiency", "references": []}
+retry: 5000
+
+id: 173
+event: text_chunk
+data: {"answer": "\n\nThe analysis", "references": []}
+retry: 5000
+
+id: 174
+event: text_chunk
+data: {"answer": " reveals", "references": []}
+retry: 5000
+
+id: 175
+event: text_chunk
+data: {"answer": " that", "references": []}
+retry: 5000
+
+id: 176
+event: text_chunk
+data: {"answer": " high", "references": []}
+retry: 5000
+
+id: 177
+event: text_chunk
+data: {"answer": " revenue", "references": []}
+retry: 5000
+
+id: 178
+event: text_chunk
+data: {"answer": " doesn", "references": []}
+retry: 5000
+
+id: 179
+event: text_chunk
+data: {"answer": "'t always correl", "references": []}
+retry: 5000
+
+id: 180
+event: text_chunk
+data: {"answer": "ate with high customer satisfaction", "references": []}
+retry: 5000
+
+id: 181
+event: text_chunk
+data: {"answer": ", suggesting different", "references": []}
+retry: 5000
+
+id: 182
+event: text_chunk
+data: {"answer": " sales", "references": []}
+retry: 5000
+
+id: 183
+event: text_chunk
+data: {"answer": " approaches", "references": []}
+retry: 5000
+
+id: 184
+event: text_chunk
+data: {"answer": " an", "references": []}
+retry: 5000
+
+id: 185
+event: text_chunk
+data: {"answer": "d customer", "references": []}
+retry: 5000
+
+id: 186
+event: text_chunk
+data: {"answer": " management", "references": []}
+retry: 5000
+
+id: 187
+event: text_chunk
+data: {"answer": " strategies across", "references": []}
+retry: 5000
+
+id: 188
+event: text_chunk
+data: {"answer": " the team.", "references": []}
+retry: 5000
+
+id: 189
+event: text_chunk
+data: {"answer": "", "references": []}
+retry: 5000
+
+id: 190
+event: final_response
+data: {"answer": "# Sales Representative Performance Analysis\n\nBased on the radar chart analysis comparing sales representatives across three key performance metrics, here are the key insights:\n\n## Overall Performance Leaders\n\n**Maria** emerges as the top performer with the highest customer satisfaction rating of `3.6` and strong revenue generation of `\u00a358,115`. She also maintains efficient support operations with only `34` support calls.\n\n**Anita** leads in revenue generation with `\u00a360,062` total net revenue, though her customer rating of `3.28` suggests room for improvement in customer satisfaction.\n\n## Key Performance Insights\n\n### Customer Satisfaction\n- **Maria**: Highest rating at `3.6`\n- **James**: Strong performance at `3.4`\n- **Rohan**: Moderate rating at `3.36`\n- **Anita**: Lower rating at `3.28`\n- **Priya**: Lowest rating at `3.18`\n\n### Revenue Generation\n- **Anita**: Top performer with `\u00a360,062`\n- **Maria**: Strong second with `\u00a358,115`\n- **James**: Solid performance at `\u00a347,710`\n- **Rohan**: Moderate revenue at `\u00a335,053`\n- **Priya**: Lowest revenue at `\u00a327,533`\n\n### Support Efficiency\n> Lower support call volumes typically indicate better customer onboarding and product understanding\n\n- **Priya**: Most efficient with only `28` support calls\n- **James & Maria**: Both efficient with `34` support calls each\n- **Anita**: Moderate volume with `37` support calls\n- **Rohan**: Highest volume with `45` support calls\n\n## Strategic Recommendations\n\n1. **Anita**: Focus on improving customer satisfaction whilst maintaining revenue strength\n2. **Maria**: Excellent balanced performance - potential mentor for other reps\n3. **James**: Strong customer satisfaction with good revenue potential for growth\n4. **Priya**: Needs revenue development support whilst maintaining efficient customer service\n5. **Rohan**: Requires improvement in both customer satisfaction and support efficiency\n\nThe analysis reveals that high revenue doesn't always correlate with high customer satisfaction, suggesting different sales approaches and customer management strategies across the team.", "references": [{"id": "5b69a0730aeb6637286277803ff252bb4dd0d73326da063df7ec8520b4e0004b", "owner": "Elysia", "source": "ingestion/internal/content/private/ff4ec1f9-5685-4499-aeff-2306da47dc61/Data_Analysis_2_da.xlsx", "title": "Data_Analysis_2.xlsx", "url": ""}]}
+retry: 5000
+
+id: 191
+event: metadata
+data: {"sources": ["ingestion/internal/content/private/ff4ec1f9-5685-4499-aeff-2306da47dc61/Data_Analysis_2_da.xlsx"], "references": [{"id": "5b69a0730aeb6637286277803ff252bb4dd0d73326da063df7ec8520b4e0004b", "owner": "Elysia", "source": "ingestion/internal/content/private/ff4ec1f9-5685-4499-aeff-2306da47dc61/Data_Analysis_2_da.xlsx", "title": "Data_Analysis_2.xlsx", "url": ""}], "run_id": "27e1b390-ec08-426f-9346-6ce48bf0e4ff", "sources_selected_by_user": ["Data_Analysis_2_da.xlsx"], "chat_agent": "Document", "collection_name": "internal_private_ff4ec1f9-5685-4499-aeff-2306da47dc61_vectorstore", "agent_path": null, "web_search": null, "invoke_type": "default", "name_of_model": "us.anthropic.claude-sonnet-4-20250514-v1:0", "response_language": "English (UK)", "agent_id": "9bd80eea-70f6-4b6c-9c84-35b6ddfbefa9", "agent_redirect_url": null, "show_attachment": true, "title": null}
+retry: 5000
+

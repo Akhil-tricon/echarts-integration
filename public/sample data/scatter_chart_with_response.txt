@@ -1,0 +1,770 @@
+id: 1
+event: intermediate_step
+data: {"args": {"query": "Analyzing request.."}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 2
+event: intermediate_step
+data: {"args": {"query": "Analyzing request.."}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 3
+event: intermediate_step
+data: {"args": {"query": "creating analysis plan"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 4
+event: intermediate_step
+data: {"args": {"query": "writing scatter query"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 5
+event: intermediate_step
+data: {"args": {"query": "executing data retrieval"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 6
+event: intermediate_step
+data: {"args": {"query": "creating scatter plot"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 7
+event: chartjs
+data: {"chartjs": {"type": "scatter", "data": {"datasets": [{"label": "East", "data": [{"x": 1, "y": 1.2}, {"x": 2, "y": 3.1}, {"x": 2, "y": 4.0}, {"x": 3, "y": 2.6}, {"x": 3, "y": 3.9}, {"x": 3, "y": 4.3}, {"x": 5, "y": 1.5}, {"x": 6, "y": 4.8}, {"x": 7, "y": 2.3}, {"x": 7, "y": 4.1}, {"x": 8, "y": 3.5}, {"x": 9, "y": 3.9}, {"x": 11, "y": 4.3}, {"x": 11, "y": 4.5}, {"x": 12, "y": 1.7}, {"x": 12, "y": 2.6}, {"x": 12, "y": 3.8}, {"x": 13, "y": 1.4}, {"x": 13, "y": 3.3}, {"x": 14, "y": 2.0}, {"x": 14, "y": 3.6}, {"x": 14, "y": 4.7}], "backgroundColor": "#3B82F6", "borderColor": "#3B82F6"}, {"label": "North", "data": [{"x": 1, "y": 4.5}, {"x": 2, "y": 1.8}, {"x": 2, "y": 4.8}, {"x": 3, "y": 1.9}, {"x": 3, "y": 4.3}, {"x": 4, "y": 3.1}, {"x": 4, "y": 5.0}, {"x": 5, "y": 3.6}, {"x": 6, "y": 1.7}, {"x": 9, "y": 4.7}, {"x": 9, "y": 4.9}, {"x": 10, "y": 1.5}, {"x": 10, "y": 3.0}, {"x": 10, "y": 3.7}, {"x": 11, "y": 1.3}, {"x": 11, "y": 2.9}, {"x": 12, "y": 2.7}, {"x": 12, "y": 3.9}, {"x": 13, "y": 3.6}, {"x": 13, "y": 4.2}, {"x": 13, "y": 4.9}, {"x": 14, "y": 3.5}, {"x": 14, "y": 4.0}, {"x": 14, "y": 4.1}], "backgroundColor": "#10B981", "borderColor": "#10B981"}, {"label": "South", "data": [{"x": 1, "y": 2.6}, {"x": 2, "y": 2.9}, {"x": 3, "y": 4.3}, {"x": 4, "y": 4.0}, {"x": 5, "y": 2.7}, {"x": 5, "y": 4.4}, {"x": 6, "y": 3.4}, {"x": 6, "y": 4.4}, {"x": 7, "y": 4.6}, {"x": 8, "y": 2.3}, {"x": 9, "y": 3.5}, {"x": 9, "y": 3.6}, {"x": 9, "y": 4.6}, {"x": 9, "y": 4.8}, {"x": 10, "y": 1.2}, {"x": 10, "y": 2.5}, {"x": 10, "y": 3.9}, {"x": 10, "y": 4.9}, {"x": 11, "y": 2.3}, {"x": 11, "y": 4.0}, {"x": 11, "y": 4.1}, {"x": 11, "y": 4.3}, {"x": 11, "y": 5.0}, {"x": 14, "y": 4.4}], "backgroundColor": "#EF4444", "borderColor": "#EF4444"}, {"label": "West", "data": [{"x": 2, "y": 1.0}, {"x": 2, "y": 2.0}, {"x": 2, "y": 2.1}, {"x": 2, "y": 2.6}, {"x": 2, "y": 2.9}, {"x": 2, "y": 3.4}, {"x": 2, "y": 4.9}, {"x": 3, "y": 1.4}, {"x": 3, "y": 3.0}, {"x": 3, "y": 3.1}, {"x": 4, "y": 1.1}, {"x": 4, "y": 3.8}, {"x": 4, "y": 4.1}, {"x": 5, "y": 2.6}, {"x": 6, "y": 3.2}, {"x": 7, "y": 2.2}, {"x": 7, "y": 3.4}, {"x": 8, "y": 4.7}, {"x": 9, "y": 3.8}, {"x": 9, "y": 4.3}, {"x": 10, "y": 1.6}, {"x": 12, "y": 2.7}, {"x": 12, "y": 3.3}, {"x": 13, "y": 2.1}, {"x": 13, "y": 4.0}, {"x": 13, "y": 4.8}, {"x": 14, "y": 4.3}], "backgroundColor": "#F59E0B", "borderColor": "#F59E0B"}]}, "options": {"responsive": true, "maintainAspectRatio": true, "plugins": {"title": {"display": true, "text": "Customer Rating vs Delivery Time by Region"}, "legend": {"display": true, "position": "top"}, "tooltip": {"enabled": true, "mode": "point", "intersect": false}}, "scales": {"x": {"type": "linear", "position": "bottom", "title": {"display": true, "text": "Delivery Time (Days)"}, "min": 0, "max": 15}, "y": {"title": {"display": true, "text": "Customer Rating"}, "min": 0, "max": 5.5}}, "interaction": {"mode": "point", "intersect": false}}}, "references": []}
+retry: 5000
+
+id: 8
+event: intermediate_step
+data: {"args": {"query": "summarizing rating patterns"}, "type": "tool_call", "references": []}
+retry: 5000
+
+id: 9
+event: text_chunk
+data: {"answer": "#", "references": []}
+retry: 5000
+
+id: 10
+event: text_chunk
+data: {"answer": " Delivery Performance", "references": []}
+retry: 5000
+
+id: 11
+event: text_chunk
+data: {"answer": " Analysis\n\nBase", "references": []}
+retry: 5000
+
+id: 12
+event: text_chunk
+data: {"answer": "d on the scatter", "references": []}
+retry: 5000
+
+id: 13
+event: text_chunk
+data: {"answer": " chart", "references": []}
+retry: 5000
+
+id: 14
+event: text_chunk
+data: {"answer": " analysis", "references": []}
+retry: 5000
+
+id: 15
+event: text_chunk
+data: {"answer": " of", "references": []}
+retry: 5000
+
+id: 16
+event: text_chunk
+data: {"answer": " delivery", "references": []}
+retry: 5000
+
+id: 17
+event: text_chunk
+data: {"answer": " times versus", "references": []}
+retry: 5000
+
+id: 18
+event: text_chunk
+data: {"answer": " customer ratings across", "references": []}
+retry: 5000
+
+id: 19
+event: text_chunk
+data: {"answer": " different regions, several", "references": []}
+retry: 5000
+
+id: 20
+event: text_chunk
+data: {"answer": " key", "references": []}
+retry: 5000
+
+id: 21
+event: text_chunk
+data: {"answer": " insights emerge from your data:\n\n## Key", "references": []}
+retry: 5000
+
+id: 22
+event: text_chunk
+data: {"answer": " Findings", "references": []}
+retry: 5000
+
+id: 23
+event: text_chunk
+data: {"answer": "\n\n> **Overall", "references": []}
+retry: 5000
+
+id: 24
+event: text_chunk
+data: {"answer": " Trend**: There is", "references": []}
+retry: 5000
+
+id: 25
+event: text_chunk
+data: {"answer": " no clear linear", "references": []}
+retry: 5000
+
+id: 26
+event: text_chunk
+data: {"answer": " relationship between delivery time and customer", "references": []}
+retry: 5000
+
+id: 27
+event: text_chunk
+data: {"answer": " satisfaction, suggesting", "references": []}
+retry: 5000
+
+id: 28
+event: text_chunk
+data: {"answer": " that other factors beyond spee", "references": []}
+retry: 5000
+
+id: 29
+event: text_chunk
+data: {"answer": "d significantly influence customer ratings.\n\n###", "references": []}
+retry: 5000
+
+id: 30
+event: text_chunk
+data: {"answer": " Regional Performance Patterns", "references": []}
+retry: 5000
+
+id: 31
+event: text_chunk
+data: {"answer": "\n\n**North Region**", "references": []}
+retry: 5000
+
+id: 32
+event: text_chunk
+data: {"answer": "\n- Shows the most", "references": []}
+retry: 5000
+
+id: 33
+event: text_chunk
+data: {"answer": " **consistent", "references": []}
+retry: 5000
+
+id: 34
+event: text_chunk
+data: {"answer": " high", "references": []}
+retry: 5000
+
+id: 35
+event: text_chunk
+data: {"answer": " performance** with", "references": []}
+retry: 5000
+
+id: 36
+event: text_chunk
+data: {"answer": " ratings frequently", "references": []}
+retry: 5000
+
+id: 37
+event: text_chunk
+data: {"answer": " reaching 4.0", "references": []}
+retry: 5000
+
+id: 38
+event: text_chunk
+data: {"answer": "-5", "references": []}
+retry: 5000
+
+id: 39
+event: text_chunk
+data: {"answer": ".0\n-", "references": []}
+retry: 5000
+
+id: 40
+event: text_chunk
+data: {"answer": " Maintains", "references": []}
+retry: 5000
+
+id: 41
+event: text_chunk
+data: {"answer": " good customer", "references": []}
+retry: 5000
+
+id: 42
+event: text_chunk
+data: {"answer": " satisfaction even with longer delivery times (", "references": []}
+retry: 5000
+
+id: 43
+event: text_chunk
+data: {"answer": "up", "references": []}
+retry: 5000
+
+id: 44
+event: text_chunk
+data: {"answer": " to 14 days", "references": []}
+retry: 5000
+
+id: 45
+event: text_chunk
+data: {"answer": ")\n- Demonstrates", "references": []}
+retry: 5000
+
+id: 46
+event: text_chunk
+data: {"answer": " strong operational", "references": []}
+retry: 5000
+
+id: 47
+event: text_chunk
+data: {"answer": " excellence across", "references": []}
+retry: 5000
+
+id: 48
+event: text_chunk
+data: {"answer": " various delivery scenarios", "references": []}
+retry: 5000
+
+id: 49
+event: text_chunk
+data: {"answer": "\n\n**South Region**\n-", "references": []}
+retry: 5000
+
+id: 50
+event: text_chunk
+data: {"answer": " Exhibits **high", "references": []}
+retry: 5000
+
+id: 51
+event: text_chunk
+data: {"answer": " variability** in customer", "references": []}
+retry: 5000
+
+id: 52
+event: text_chunk
+data: {"answer": " satisfaction", "references": []}
+retry: 5000
+
+id: 53
+event: text_chunk
+data: {"answer": "\n- Contains", "references": []}
+retry: 5000
+
+id: 54
+event: text_chunk
+data: {"answer": " both the", "references": []}
+retry: 5000
+
+id: 55
+event: text_chunk
+data: {"answer": " highest ratings (5", "references": []}
+retry: 5000
+
+id: 56
+event: text_chunk
+data: {"answer": ".0) and some", "references": []}
+retry: 5000
+
+id: 57
+event: text_chunk
+data: {"answer": " of the lowest (1", "references": []}
+retry: 5000
+
+id: 58
+event: text_chunk
+data: {"answer": ".2", "references": []}
+retry: 5000
+
+id: 59
+event: text_chunk
+data: {"answer": ") across different", "references": []}
+retry: 5000
+
+id: 60
+event: text_chunk
+data: {"answer": " delivery times\n- Shows", "references": []}
+retry: 5000
+
+id: 61
+event: text_chunk
+data: {"answer": " potential", "references": []}
+retry: 5000
+
+id: 62
+event: text_chunk
+data: {"answer": " for improvement in service", "references": []}
+retry: 5000
+
+id: 63
+event: text_chunk
+data: {"answer": " consistency", "references": []}
+retry: 5000
+
+id: 64
+event: text_chunk
+data: {"answer": "\n\n**West", "references": []}
+retry: 5000
+
+id: 65
+event: text_chunk
+data: {"answer": " Region**\n-", "references": []}
+retry: 5000
+
+id: 66
+event: text_chunk
+data: {"answer": " Displays", "references": []}
+retry: 5000
+
+id: 67
+event: text_chunk
+data: {"answer": " **moderate performance** with", "references": []}
+retry: 5000
+
+id: 68
+event: text_chunk
+data: {"answer": " ratings typically", "references": []}
+retry: 5000
+
+id: 69
+event: text_chunk
+data: {"answer": " ranging from 2", "references": []}
+retry: 5000
+
+id: 70
+event: text_chunk
+data: {"answer": ".0-4", "references": []}
+retry: 5000
+
+id: 71
+event: text_chunk
+data: {"answer": ".0\n- Shows", "references": []}
+retry: 5000
+
+id: 72
+event: text_chunk
+data: {"answer": " some", "references": []}
+retry: 5000
+
+id: 73
+event: text_chunk
+data: {"answer": " excellent", "references": []}
+retry: 5000
+
+id: 74
+event: text_chunk
+data: {"answer": " outl", "references": []}
+retry: 5000
+
+id: 75
+event: text_chunk
+data: {"answer": "iers (4.9", "references": []}
+retry: 5000
+
+id: 76
+event: text_chunk
+data: {"answer": " rating) but lacks", "references": []}
+retry: 5000
+
+id: 77
+event: text_chunk
+data: {"answer": " the consistency of the", "references": []}
+retry: 5000
+
+id: 78
+event: text_chunk
+data: {"answer": " North region", "references": []}
+retry: 5000
+
+id: 79
+event: text_chunk
+data: {"answer": "\n- Represents", "references": []}
+retry: 5000
+
+id: 80
+event: text_chunk
+data: {"answer": " the largest", "references": []}
+retry: 5000
+
+id: 81
+event: text_chunk
+data: {"answer": " data cluster", "references": []}
+retry: 5000
+
+id: 82
+event: text_chunk
+data: {"answer": " in the", "references": []}
+retry: 5000
+
+id: 83
+event: text_chunk
+data: {"answer": " middle", "references": []}
+retry: 5000
+
+id: 84
+event: text_chunk
+data: {"answer": " performance range\n\n**East Region", "references": []}
+retry: 5000
+
+id: 85
+event: text_chunk
+data: {"answer": "**\n- Demonstrates", "references": []}
+retry: 5000
+
+id: 86
+event: text_chunk
+data: {"answer": " **steady", "references": []}
+retry: 5000
+
+id: 87
+event: text_chunk
+data: {"answer": " improvement** with longer", "references": []}
+retry: 5000
+
+id: 88
+event: text_chunk
+data: {"answer": " delivery times\n- Lower", "references": []}
+retry: 5000
+
+id: 89
+event: text_chunk
+data: {"answer": " ratings", "references": []}
+retry: 5000
+
+id: 90
+event: text_chunk
+data: {"answer": " concentrate", "references": []}
+retry: 5000
+
+id: 91
+event: text_chunk
+data: {"answer": "d in shorter", "references": []}
+retry: 5000
+
+id: 92
+event: text_chunk
+data: {"answer": " delivery periods", "references": []}
+retry: 5000
+
+id: 93
+event: text_chunk
+data: {"answer": " (1", "references": []}
+retry: 5000
+
+id: 94
+event: text_chunk
+data: {"answer": "-5", "references": []}
+retry: 5000
+
+id: 95
+event: text_chunk
+data: {"answer": " days)\n-", "references": []}
+retry: 5000
+
+id: 96
+event: text_chunk
+data: {"answer": " Suggests", "references": []}
+retry: 5000
+
+id: 97
+event: text_chunk
+data: {"answer": " potential operational", "references": []}
+retry: 5000
+
+id: 98
+event: text_chunk
+data: {"answer": " challenges with", "references": []}
+retry: 5000
+
+id: 99
+event: text_chunk
+data: {"answer": " rush", "references": []}
+retry: 5000
+
+id: 100
+event: text_chunk
+data: {"answer": " deliveries\n\n## Strategic", "references": []}
+retry: 5000
+
+id: 101
+event: text_chunk
+data: {"answer": " Implications\n\n###", "references": []}
+retry: 5000
+
+id: 102
+event: text_chunk
+data: {"answer": " Service", "references": []}
+retry: 5000
+
+id: 103
+event: text_chunk
+data: {"answer": " Quality Focus", "references": []}
+retry: 5000
+
+id: 104
+event: text_chunk
+data: {"answer": "\nThe data suggests", "references": []}
+retry: 5000
+
+id: 105
+event: text_chunk
+data: {"answer": " that **delivery", "references": []}
+retry: 5000
+
+id: 106
+event: text_chunk
+data: {"answer": " speed alone does", "references": []}
+retry: 5000
+
+id: 107
+event: text_chunk
+data: {"answer": " not guarantee", "references": []}
+retry: 5000
+
+id: 108
+event: text_chunk
+data: {"answer": " customer satisfaction**.", "references": []}
+retry: 5000
+
+id: 109
+event: text_chunk
+data: {"answer": " Regions achieving", "references": []}
+retry: 5000
+
+id: 110
+event: text_chunk
+data: {"answer": " high ratings with", "references": []}
+retry: 5000
+
+id: 111
+event: text_chunk
+data: {"answer": " longer delivery times likely", "references": []}
+retry: 5000
+
+id: 112
+event: text_chunk
+data: {"answer": " excel in other service", "references": []}
+retry: 5000
+
+id: 113
+event: text_chunk
+data: {"answer": " areas such as communication", "references": []}
+retry: 5000
+
+id: 114
+event: text_chunk
+data: {"answer": ", product quality", "references": []}
+retry: 5000
+
+id: 115
+event: text_chunk
+data: {"answer": ", or customer support", "references": []}
+retry: 5000
+
+id: 116
+event: text_chunk
+data: {"answer": ".\n\n### Regional", "references": []}
+retry: 5000
+
+id: 117
+event: text_chunk
+data: {"answer": " Optim", "references": []}
+retry: 5000
+
+id: 118
+event: text_chunk
+data: {"answer": "isation Opportunities\n- **", "references": []}
+retry: 5000
+
+id: 119
+event: text_chunk
+data: {"answer": "South Region**: Investigate", "references": []}
+retry: 5000
+
+id: 120
+event: text_chunk
+data: {"answer": " causes of", "references": []}
+retry: 5000
+
+id: 121
+event: text_chunk
+data: {"answer": " rating", "references": []}
+retry: 5000
+
+id: 122
+event: text_chunk
+data: {"answer": " variability to", "references": []}
+retry: 5000
+
+id: 123
+event: text_chunk
+data: {"answer": " standar", "references": []}
+retry: 5000
+
+id: 124
+event: text_chunk
+data: {"answer": "dise service quality", "references": []}
+retry: 5000
+
+id: 125
+event: text_chunk
+data: {"answer": "\n- **West Region", "references": []}
+retry: 5000
+
+id: 126
+event: text_chunk
+data: {"answer": "**: Identify", "references": []}
+retry: 5000
+
+id: 127
+event: text_chunk
+data: {"answer": " best", "references": []}
+retry: 5000
+
+id: 128
+event: text_chunk
+data: {"answer": " practices from", "references": []}
+retry: 5000
+
+id: 129
+event: text_chunk
+data: {"answer": " high-performing deliv", "references": []}
+retry: 5000
+
+id: 130
+event: text_chunk
+data: {"answer": "eries to", "references": []}
+retry: 5000
+
+id: 131
+event: text_chunk
+data: {"answer": " improve", "references": []}
+retry: 5000
+
+id: 132
+event: text_chunk
+data: {"answer": " consistency\n- **East", "references": []}
+retry: 5000
+
+id: 133
+event: text_chunk
+data: {"answer": " Region**: Review", "references": []}
+retry: 5000
+
+id: 134
+event: text_chunk
+data: {"answer": " rush delivery processes", "references": []}
+retry: 5000
+
+id: 135
+event: text_chunk
+data: {"answer": " to enhance", "references": []}
+retry: 5000
+
+id: 136
+event: text_chunk
+data: {"answer": " short", "references": []}
+retry: 5000
+
+id: 137
+event: text_chunk
+data: {"answer": "-term delivery", "references": []}
+retry: 5000
+
+id: 138
+event: text_chunk
+data: {"answer": " satisfaction", "references": []}
+retry: 5000
+
+id: 139
+event: text_chunk
+data: {"answer": "\n\n### Performance", "references": []}
+retry: 5000
+
+id: 140
+event: text_chunk
+data: {"answer": " Bench", "references": []}
+retry: 5000
+
+id: 141
+event: text_chunk
+data: {"answer": "marking\nThe", "references": []}
+retry: 5000
+
+id: 142
+event: text_chunk
+data: {"answer": " North", "references": []}
+retry: 5000
+
+id: 143
+event: text_chunk
+data: {"answer": " region's", "references": []}
+retry: 5000
+
+id: 144
+event: text_chunk
+data: {"answer": " consistent high performance across", "references": []}
+retry: 5000
+
+id: 145
+event: text_chunk
+data: {"answer": " all delivery time", "references": []}
+retry: 5000
+
+id: 146
+event: text_chunk
+data: {"answer": "frames provides a valuable", "references": []}
+retry: 5000
+
+id: 147
+event: text_chunk
+data: {"answer": " benchmark", "references": []}
+retry: 5000
+
+id: 148
+event: text_chunk
+data: {"answer": " for operational excellence that", "references": []}
+retry: 5000
+
+id: 149
+event: text_chunk
+data: {"answer": " other", "references": []}
+retry: 5000
+
+id: 150
+event: text_chunk
+data: {"answer": " regions coul", "references": []}
+retry: 5000
+
+id: 151
+event: text_chunk
+data: {"answer": "d emulate.", "references": []}
+retry: 5000
+
+id: 152
+event: text_chunk
+data: {"answer": "", "references": []}
+retry: 5000
+
+id: 153
+event: final_response
+data: {"answer": "# Delivery Performance Analysis\n\nBased on the scatter chart analysis of delivery times versus customer ratings across different regions, several key insights emerge from your data:\n\n## Key Findings\n\n> **Overall Trend**: There is no clear linear relationship between delivery time and customer satisfaction, suggesting that other factors beyond speed significantly influence customer ratings.\n\n### Regional Performance Patterns\n\n**North Region**\n- Shows the most **consistent high performance** with ratings frequently reaching 4.0-5.0\n- Maintains good customer satisfaction even with longer delivery times (up to 14 days)\n- Demonstrates strong operational excellence across various delivery scenarios\n\n**South Region**\n- Exhibits **high variability** in customer satisfaction\n- Contains both the highest ratings (5.0) and some of the lowest (1.2) across different delivery times\n- Shows potential for improvement in service consistency\n\n**West Region**\n- Displays **moderate performance** with ratings typically ranging from 2.0-4.0\n- Shows some excellent outliers (4.9 rating) but lacks the consistency of the North region\n- Represents the largest data cluster in the middle performance range\n\n**East Region**\n- Demonstrates **steady improvement** with longer delivery times\n- Lower ratings concentrated in shorter delivery periods (1-5 days)\n- Suggests potential operational challenges with rush deliveries\n\n## Strategic Implications\n\n### Service Quality Focus\nThe data suggests that **delivery speed alone does not guarantee customer satisfaction**. Regions achieving high ratings with longer delivery times likely excel in other service areas such as communication, product quality, or customer support.\n\n### Regional Optimisation Opportunities\n- **South Region**: Investigate causes of rating variability to standardise service quality\n- **West Region**: Identify best practices from high-performing deliveries to improve consistency\n- **East Region**: Review rush delivery processes to enhance short-term delivery satisfaction\n\n### Performance Benchmarking\nThe North region's consistent high performance across all delivery timeframes provides a valuable benchmark for operational excellence that other regions could emulate.", "references": [{"id": "5b69a0730aeb6637286277803ff252bb4dd0d73326da063df7ec8520b4e0004b", "owner": "Elysia", "source": "ingestion/internal/content/private/ff4ec1f9-5685-4499-aeff-2306da47dc61/Data_Analysis_2_da.xlsx", "title": "Data_Analysis_2.xlsx", "url": ""}]}
+retry: 5000
+
+id: 154
+event: metadata
+data: {"sources": ["ingestion/internal/content/private/ff4ec1f9-5685-4499-aeff-2306da47dc61/Data_Analysis_2_da.xlsx"], "references": [{"id": "5b69a0730aeb6637286277803ff252bb4dd0d73326da063df7ec8520b4e0004b", "owner": "Elysia", "source": "ingestion/internal/content/private/ff4ec1f9-5685-4499-aeff-2306da47dc61/Data_Analysis_2_da.xlsx", "title": "Data_Analysis_2.xlsx", "url": ""}], "run_id": "e832f56b-337b-45ad-bb40-93087d5921ad", "sources_selected_by_user": ["Data_Analysis_2_da.xlsx"], "chat_agent": "Document", "collection_name": "internal_private_ff4ec1f9-5685-4499-aeff-2306da47dc61_vectorstore", "agent_path": null, "web_search": null, "invoke_type": "default", "name_of_model": "us.anthropic.claude-sonnet-4-20250514-v1:0", "response_language": "English (UK)", "agent_id": "9bd80eea-70f6-4b6c-9c84-35b6ddfbefa9", "agent_redirect_url": null, "show_attachment": true, "title": null}
+retry: 5000
+
